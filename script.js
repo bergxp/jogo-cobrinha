@@ -19,7 +19,7 @@ function criarBG() {
 function criarCobrinha() {
   for (i = 0; i < snake.length; i++) {
     context.fillStyle = 'black';
-    context.fillRect(snake[i].x, snake[i].y, box, box);
+    context.fillRect(snake[i].x, snake[i].y, box-1, box-1);
   }
 }
 function drawFood (){
